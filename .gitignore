@@ -141,3 +141,12 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# POC runtime artifacts
+poc/data.sqlite
+poc/data.sqlite-journal
+
+# Benchmark run dirs (recreated each run)
+benchmarks/npm-run/
+benchmarks/pnpm-run/
+benchmarks/bun-run/
